@@ -1,0 +1,92 @@
+.container {
+    height: 80px;
+    width: 100%;
+    background: #dc2b5d;
+    padding: 10px;
+    font-family: 'Unbounded';
+    letter-spacing: -0.3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.interaction {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.dev-title {
+    font-family: 'Unbounded-Medium';
+}
+
+.button {
+    height: auto;
+    width: auto;
+    padding: 7px;
+    background: #ffc0cb;
+    color: #dc2b5d;
+    font-size: 15px;
+    border-radius: 10px;
+    letter-spacing: -0.3px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #000000;
+    color: #ffffff;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.menu {
+    height: 30px;
+    width: 100%;
+    background: #ffc0cb;
+    color: #dc2b5d;
+    z-index: 1;
+    transition: .3s ease-in-out;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    font-size: 15px;
+}
+
+.list {
+    transition: .3s ease-in-out;
+}
+
+.list:hover {
+    color: #000000;
+    transition: .3s ease-in-out;
+}
+
+@media (max-width: 599px) {
+    .name {
+        font-size: 17px;
+    }
+
+    .dev-title {
+        display: none;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+
+    .list {
+        font-size: 12px;
+    }
+}

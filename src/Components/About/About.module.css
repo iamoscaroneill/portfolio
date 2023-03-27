@@ -1,0 +1,112 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background: #010101;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Space Grotesk-Medium';
+    letter-spacing: -0.5px;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.description {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    margin-bottom: 10px;
+}
+
+.oscar {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text {
+    height: auto;
+    width: 350px;
+    font-size: 18px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+.education {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    margin-bottom: 10px;
+}
+
+.school {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.study {
+    height: auto;
+    margin: 5px;
+}
+
+.skills {
+    height: auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-bottom: 10px;
+}
+
+.skill-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.connect {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    transition: .3s ease-in-out;
+}
+
+.links:hover {
+    transition: .3s ease-in-out;
+    color: #ffc0cb;
+}
+
+@media (max-width: 530px) {
+    .skills {
+        width: 100%;
+    }
+}
