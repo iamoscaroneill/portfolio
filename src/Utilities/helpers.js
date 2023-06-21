@@ -127,31 +127,6 @@ export const projects = [
         website: 'https://yesterday.netlify.app',
     },
     {
-        title: 'Telepath',
-        memo: 'View GIFs and videos on Reddit',
-        image: image.telepath,
-        tech: [
-            {
-                language: 'React',
-                icon: icons.react
-            },
-            {
-                language: 'snoowrap.js',
-                icon: icons.reddit
-            },
-            {
-                language: 'Node',
-                icon: icons.node
-            },
-            {
-                language: 'Express',
-                icon: icons.express
-            }
-        ],
-        github: 'https://github.com/oscar-oneill/telepath',
-        website: 'https://telepath.vercel.app',
-    },
-    {
         title: 'Retro Tetris',
         memo: 'Mintbean Hackathon Project for August 2021',
         image: image.tetris,
