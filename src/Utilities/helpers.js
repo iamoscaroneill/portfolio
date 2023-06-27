@@ -219,11 +219,11 @@ export const skills = [
 ]
 
 export const contacts = [
-    {
-        service: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/oscarone/',
-        icon: icons.linkedin
-    },
+    // {
+    //     service: 'LinkedIn',
+    //     url: 'https://www.linkedin.com/in/oscarone/',
+    //     icon: icons.linkedin
+    // },
     {
         service: 'GitHub',
         url: 'https://github.com/oscar-oneill',
