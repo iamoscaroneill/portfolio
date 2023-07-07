@@ -4,11 +4,11 @@ import { image, icons } from '../Utilities/images'
 export const menuItems = [
     {
         title: 'Projects',
-        link: '/'
+        link: '/projects'
     },
     {
         title: 'About Me',
-        link: '/about'
+        link: '/'
     },
     {
         title: 'Resume',
@@ -16,7 +16,7 @@ export const menuItems = [
     },
     {
         title: 'Contact',
-        link: 'mailto:oscaroneill@email.com'
+        link: 'mailto:oeoneil1@asu.edu'
     },
     // {
     //     title: 'Blog',
@@ -219,11 +219,11 @@ export const skills = [
 ]
 
 export const contacts = [
-    // {
-    //     service: 'LinkedIn',
-    //     url: 'https://www.linkedin.com/in/oscarone/',
-    //     icon: icons.linkedin
-    // },
+    {
+        service: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/oscarone/',
+        icon: icons.linkedin
+    },
     {
         service: 'GitHub',
         url: 'https://github.com/oscar-oneill',

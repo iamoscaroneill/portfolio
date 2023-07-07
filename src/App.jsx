@@ -10,10 +10,9 @@ const App = () => {
     <Router>
       <div className='App'>
         <Navigation/>
-        {/* <Portfolio/> */}
         <Routes>
-          <Route path='/' exact Component={Portfolio}/>
-          <Route path='/about' exact Component={About}/>
+          <Route path='/' exact Component={About}/>
+          <Route path='/projects' exact Component={Portfolio}/>
         </Routes>
       </div>
     </Router>
