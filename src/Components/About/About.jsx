@@ -21,7 +21,7 @@ const About = () => {
           <span>Arizona State University</span>
         </div>
 
-        <span className={about.study}>Interdisciplinary Studies</span>
+        <span className={about.study}>Interdisciplinary Studies '24</span>
       </div>
 
       <h2>Skills</h2>
