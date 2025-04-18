@@ -50,15 +50,15 @@ export const projects = [
             {
                 language: 'React',
                 icon: icons.react
-            }, 
+            },
             {
                 language: 'Node',
                 icon: icons.node
-            }, 
+            },
             {
                 language: 'Express',
                 icon: icons.express
-            }, 
+            },
             {
                 language: 'Puppeteer',
                 icon: icons.puppeteer
