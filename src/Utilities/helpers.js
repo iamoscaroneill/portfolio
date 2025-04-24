@@ -12,7 +12,7 @@ export const menuItems = [
     },
     {
         title: 'Resume',
-        link: resume
+        link: 'https://docs.google.com/document/d/1c1BDl4lJi5I3eA3Q9-4j5lGomsrT8cTdQpWsTXqGDyQ/edit?usp=sharing'
     },
     {
         title: 'Contact',
@@ -230,7 +230,7 @@ export const contacts = [
         icon: icons.github
     },
     {
-        service: 'Twitter',
+        service: 'X',
         url: 'https://twitter.com/itsoscarlavista',
         icon: icons.twitter
     }
